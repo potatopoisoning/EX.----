@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+   <head>
+      <meta charset="UTF-8">
+      <title>flex</title>
+   </head>
+   <!-- 
+      <body>를 브라우저 창의 높이(vh의 100%)로 지정
+      <body>가 외부여백이 있기에 margin: 0px;
+
+      <body style="height: 100vh;margin: 0px;">
+      <table style="width: 100%; height: 100%; background-color: aqua;">
+         <tr>
+            <td style="text-align: center; vertical-align: middle;">
+               <span style="background-color: aliceblue;">공간박스</span>
+            </td>
+         </tr>
+      </table>
+   -->
+   <!-- 
+      <body> 내부 표시 속성을 display:flex로 바꾸고,
+      가로세로 중앙 정렬로 바꿈
+      <body style="
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         width: 100%;
+         height: 100vh;
+         margin: 0px;
+   ">
+      <table style="width: 200px; height: 200px; background-color: aqua;">
+         <tr>
+            <td>내용</td>
+         </tr>
+      </table>
+   -->
+   <body style="background-color: gray;">
+      <table style="width: 200px;
+                    height: 200px;
+                    background-color: white;
+                    border-radius: 10px;
+                    padding: 10px;
+      ">
+         <tr>
+            <td>제목</td>
+         </tr>
+         <tr>
+            <td>
+               이메일
+               <input type="email" name="email" style="width: 90%;">
+            </td>
+         </tr>
+         <tr>
+            <td>
+               비번
+               <input type="password" name="pw" style="width: 90%;">
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <input type="submit" value="로그인" style="width: 100%;">
+            </td>
+         </tr>
+         <tr>
+            <td>
+               계정이 없으신가요?<br><br>
+               <a href="join.html">회원가입</a>
+            </td>
+         </tr>
+      </table>
+   </body>
+</html>

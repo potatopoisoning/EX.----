@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>회원 정보</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2 style="color: pink;">회원 정보</h2>
+            <form action="joinOk.html" method="post">
+                <div class="input_group">
+                    <label for="name">이름</label>
+                    <input type="text" name="name" id="name" value="홍길동" readonly>
+                </div>
+                <div class="input_group">
+                    <label for="email">이메일</label>
+                    <input type="email" name="email" id="email" value="honggildong@example.com" readonly>
+                </div>
+                <div class="input_group">
+                    <label for="pw">가입일</label>
+                    <input type="text" name="pw" id="date" value="2024년 8월 16일" readonly>
+                </div><br>
+                <a href="memo.html"><input type="button" class="btn" value="메모장으로 이동"></a><br><br>
+                <a href="logout.html"><button type="button" class="btn">로그아웃</button></a>
+            </form>
+        </div>
+    </body>
+</html>

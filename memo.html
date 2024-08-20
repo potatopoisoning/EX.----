@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>메모장</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2 style="color: pink;">내 메모장</h2>
+            <form action="loginOk.html" method="post">
+                <hr>
+            <div class="memo_group">
+               <input type="text" name="title" value="1번 메모" readonly>
+               <textarea placeholder="메모의 내용입니다" class="note" readonly></textarea>
+            </div>
+            <hr>
+            <div class="memo_group">
+               <input type="text" name="title" value="2번 메모" readonly>
+               <textarea placeholder="메모의 내용입니다" class="note" readonly></textarea>
+            </div>
+            <hr>
+            <div class="memo_group">
+               <input type="text" name="title" value="3번 메모" readonly>
+               <textarea placeholder="메모의 내용입니다" class="note" readonly></textarea>
+            </div>
+            <hr>
+            <a href="memo_메모입력모달창.html"><button type="button" class="btn" >메모 작성하기</button></a>
+         </form>
+        </div>
+        <!-- 모달창 -->
+        <div class="modal">
+            <table style="background-color: aliceblue;" class="modal_contents">
+                <tr>
+                    <td style="text-align: center;">
+                        <div class="memo_group">
+                            <input type="text" name="title" value="메모 제목">
+                            <textarea placeholder="메모의 내용입니다" class="note"></textarea>
+                        </div>
+                        <button type="button" class="btn" >메모 작성하기</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
